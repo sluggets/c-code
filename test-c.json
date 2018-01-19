@@ -1,0 +1,14 @@
+[
+    "#include <stdio.h>\n", 
+    "\n", 
+    "\n", 
+    "int main(int argc, char *argv[])\n", 
+    "{\n", 
+    "    int x;\n", 
+    "\n", 
+    "    printf(\"%d\\n\", argc);\n", 
+    "    for (x = 0; x < argc; x++)\n", 
+    "        printf(\"%s\\n\", argv[x]);\n", 
+    "    return 0;\n", 
+    "}\n"
+]
