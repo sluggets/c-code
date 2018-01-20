@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
     newDelay();
     function newDelay()
     {
-      $(spansList[i]).delay( 250 ).fadeOut(400);
+      $(spansList[i]).delay( 150 ).fadeOut(600);
       i++;
       if (i < howManyTimes)
       {
-        setTimeout(newDelay, 250);
+        setTimeout(newDelay, 150);
       }
     }
 
@@ -56,6 +56,7 @@ codeArr = [
     "#include <stdio.h> \n", 
     "#include <stdbool.h>\n", 
     "\n", 
+    "//*** This is the C code that I wrote for EDX HarvardX CS50!***//\n",
     "#define CAPACITY 4\n", 
     "typedef struct\n", 
     "{\n", 
